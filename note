@@ -1,0 +1,14 @@
+<!--new blog-->
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="assets/DONATE2.jpg">
+                                            <div class="card-body">
+
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Impedit voluptate modi corporis eius rem vitae? <a href="#">read more</a> <br>
+                                                    <span class="blog-date">29 May 2024</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--blog ends here-->

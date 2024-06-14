@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>wegba Cuisine food display</title>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+    <style>
+        .btn-custom1 {
+            background-color: rgb(88, 87, 87);
+
+        }
+
+        .btn-custom2 {
+            background-color: red;
+        }
+
+        .btn-custom1,
+        .btn-custom2 {
+            color: white;
+            padding: 10px;
+            border-radius: 15px;
+
+        }
+
+        .card {
+            margin: 20px;
+            border-radius: 25px;
+            background-color: white;
+            box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.2);
+            height: 35rem;
+        }
+
+        .btn-add-to-cart {
+            border: 2px solid red;
+            padding: 10px;
+            border-radius: 8px;
+            float: right;
+            margin: 0 15px 10px 0;
+
+        }
+
+        .bi-star-fill {
+            color: rgb(240, 192, 33);
+            font-size: 10px;
+            margin-top: 20px;
+        }
+
+        .btn-add-to-cart:hover {
+            background-color: red;
+            color: white;
+
+        }
+
+        .price {
+            font-weight: bold;
+            font-size: 25px;
+            margin: 0 0 5px 30px;
+        }
+
+        .img-fluid {
+            filter: drop-shadow(3px 3px 3px #756f6fdc);
+            width: 13rem;
+            margin-left: 20%;
+            height: 12rem;
+        }
+
+        .bi-heart {
+            background-color: red;
+            font-size: 25px;
+            border-radius: 0 5px 0 15px;
+            padding: 10px;
+            color: white;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 80%;
+        }
+    </style>
+    <script type='text/javascript' src=''></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript'
+        src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+</head>
+
+<body oncontextmenu='return false' class='snippet-body'>
+    <section class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="mb-3">Our Popular Dishes </h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-custom1 mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
+                        data-slide="prev">
+                        <i class="bi bi-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-custom2 mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="assets/food 1.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Dish Name <br>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                </h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Quaerat minus accusantium adipisci aspernatur fugiat qui
+                                                    temporibus numquam optio, esse id quae tenetur veniam quidem
+                                                    doloribus recusandae distinctio vel. Minus, distinctio!</p>
+
+                                            </div>
+                                            <span class="bi-heart"></span>
+                                            <div class="">
+                                                <span class="price">$120</span>
+                                                <a href="" class="btn btn-add-to-cart">Add to cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="assets/salmon.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Dish Name <br>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                </h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Quaerat minus accusantium adipisci aspernatur fugiat qui
+                                                    temporibus numquam optio, esse id quae tenetur veniam quidem
+                                                    doloribus recusandae distinctio vel. Minus, distinctio!</p>
+
+                                            </div>
+                                            <span class="bi-heart"></span>
+                                            <div class="">
+                                                <span class="price">$120</span>
+                                                <a href="" class="btn btn-add-to-cart">Add to cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="assets/indomie.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Dish Name <br>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                </h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Quaerat minus accusantium adipisci aspernatur fugiat qui
+                                                    temporibus numquam optio, esse id quae tenetur veniam quidem
+                                                    doloribus recusandae distinctio vel. Minus, distinctio!</p>
+
+                                            </div>
+                                            <span class="bi-heart"></span>
+                                            <div class="">
+                                                <span class="price">$120</span>
+                                                <a href="" class="btn btn-add-to-cart">Add to cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="assets/rice with fish.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Dish Name <br>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                </h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Quaerat minus accusantium adipisci aspernatur fugiat qui
+                                                    temporibus numquam optio, esse id quae tenetur veniam quidem
+                                                    doloribus recusandae distinctio vel. Minus, distinctio!</p>
+
+                                            </div>
+                                            <span class="bi-heart"></span>
+                                            <div class="">
+                                                <span class="price">$120</span>
+                                                <a href="" class="btn btn-add-to-cart">Add to cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="assets/food.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Dish Name <br>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                </h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Quaerat minus accusantium adipisci aspernatur fugiat qui
+                                                    temporibus numquam optio, esse id quae tenetur veniam quidem
+                                                    doloribus recusandae distinctio vel. Minus, distinctio!</p>
+
+                                            </div>
+                                            <span class="bi-heart"></span>
+                                            <div class="">
+                                                <span class="price">$120</span>
+                                                <a href="" class="btn btn-add-to-cart">Add to cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="assets/food 1.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Dish Name <br>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                </h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Quaerat minus accusantium adipisci aspernatur fugiat qui
+                                                    temporibus numquam optio, esse id quae tenetur veniam quidem
+                                                    doloribus recusandae distinctio vel. Minus, distinctio!</p>
+
+                                            </div>
+                                            <span class="bi-heart"></span>
+                                            <div class="">
+                                                <span class="price">$120</span>
+                                                <a href="" class="btn btn-add-to-cart">Add to cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="assets/salmon.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Dish Name <br>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                </h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Quaerat minus accusantium adipisci aspernatur fugiat qui
+                                                    temporibus numquam optio, esse id quae tenetur veniam quidem
+                                                    doloribus recusandae distinctio vel. Minus, distinctio!</p>
+
+                                            </div>
+                                            <span class="bi-heart"></span>
+                                            <div class="">
+                                                <span class="price">$120</span>
+                                                <a href="" class="btn btn-add-to-cart">Add to cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="assets/penne pasta.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Dish Name <br>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                </h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Quaerat minus accusantium adipisci aspernatur fugiat qui
+                                                    temporibus numquam optio, esse id quae tenetur veniam quidem
+                                                    doloribus recusandae distinctio vel. Minus, distinctio!</p>
+
+                                            </div>
+                                            <span class="bi-heart"></span>
+                                            <div class="">
+                                                <span class="price">$120</span>
+                                                <a href="" class="btn btn-add-to-cart">Add to cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="assets/fried rice.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Dish Name <br>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                    <span class="bi bi-star-fill" aria-hidden="true"></span>
+                                                </h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                    elit. Quaerat minus accusantium adipisci aspernatur fugiat qui
+                                                    temporibus numquam optio, esse id quae tenetur veniam quidem
+                                                    doloribus recusandae distinctio vel. Minus, distinctio!</p>
+
+                                            </div>
+                                            <span class="bi-heart"></span>
+                                            <div class="">
+                                                <span class="price">$120</span>
+                                                <a href="" class="btn btn-add-to-cart">Add to cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type='text/javascript'></script>
+
+    <script>  
+        const favfood = document.getElementsByClassName('bi-heart');
+        favfood.addEventListener('click', handleClick);
+        function handleClick() {
+            alert("food added to favourite");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,590 @@
+body {
+    cursor: default;
+}
+
+
+.container-fluid {
+    padding: 15px;
+}
+
+.logo {
+    position: absolute;
+    margin-top: -10px;
+    height: 100px;
+
+    width: 8%;
+    float: left;
+}
+
+.logopng {
+    position: absolute;
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.head-items {
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.header {
+    list-style: none;
+    display: inline;
+    float: left;
+    margin-right: 30px;
+}
+
+.header11 {
+    list-style: none;
+    display: inline;
+    float: right;
+
+
+}
+
+.menu {
+    color: rgb(0, 0, 0);
+}
+
+.menu-item {
+    font-size: 20px;
+    display: inline;
+    list-style: none;
+    margin-left: 3em;
+}
+
+.menu-item:hover {
+    padding-bottom: 8px;
+    border-bottom: 3px solid red;
+    cursor: pointer;
+}
+
+.header-cart {
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+    margin-left: 60%;
+}
+
+.login_btn {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: 2s ease;
+}
+
+.login_btn:hover {
+    color: red;
+    background-color: white;
+    border: 2px solid rgb(24, 23, 23);
+}
+
+
+.signup_btn {
+    color: rgb(24, 23, 23);
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(24, 23, 23);
+    font-size: 20px;
+    transition: 2s ease;
+}
+
+.signup_btn:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+
+.btn1-2 {
+    display: inline;
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+
+
+}
+
+.header-btn {
+    list-style: none;
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    margin-top: -15px;
+
+}
+
+.intro {
+    margin-top: 500px;
+    display: inline;
+    background-color: rgb(170, 69, 69);
+}
+
+.intro-main {
+    display: inline;
+    list-style: none;
+
+}
+
+.greet {
+    display: inline;
+    float: left;
+    margin-left: 5%;
+    font-size: 13rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.greet-img {
+    display: inline;
+    float: right;
+    margin-right: 5%;
+}
+
+.front-img {
+    filter: drop-shadow(10px 10px 50px #df7a7a);
+    height: 70rem;
+    width: auto;
+}
+
+
+.intro-btn1 {
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    list-style: none;
+    display: inline;
+    float: left;
+    margin-left: -50px;
+}
+
+.intro-btn2 {
+    border: 2px solid red;
+    border-radius: 8px;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    padding: 8px;
+    list-style: none;
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
+.stars{
+    margin-top: -8% !important;
+    position: absolute;
+    margin-left: -50px !important;
+}
+
+.review-head{
+    margin-left: -50px;
+}
+
+.all-review-images{
+    margin-left: -50px;
+}
+
+.review {
+    list-style: none;
+    display: inline;
+    float: left;
+
+}
+
+.client:hover {
+    margin: -150px 20px 0 20px;
+}
+
+.client {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    margin: -150px -20px 0 0;
+}
+
+
+.tag1 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    right: 50px;
+    margin-right: 20px;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tag2 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    right: 650px;
+    margin-right: 20px;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.food-carousel {
+    width: 100%;
+    height: 100vh;
+    border: 0;
+
+}
+
+
+.fooddisplay {
+    margin: 0 5% 0 5%;
+}
+
+
+.col-sm-3 {
+    margin: 50px 20px 50px 50px;
+    width: 30rem;
+    height: 40rem;
+    padding: 15px;
+    border: 2px solid rgb(223, 208, 208);
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    filter: drop-shadow(3px 3px 3px #756f6fdc);
+}
+
+#ourworks {
+    text-align: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-bottom: 80px;
+}
+
+.col-6 {
+    width: 40rem;
+    height: 50rem;
+
+}
+
+.restaurant {
+    width: 60rem;
+    height: 35rem;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.action-buttons {
+    padding: 5px 0 5px 0;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: left;
+    font-size: 25px;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+#blog {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.postImg {
+    width: 35rem;
+    height: 25rem;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#customerReaction {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.customerImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.856);
+    text-align: center;
+    color: white;
+    font-size: 15x;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.socialmedia {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    float: inline-end;
+    font-size: 20px;
+
+
+}
+
+.food-cards-mobile {
+    display: none;
+    width: 100%;
+    height: 70vh;
+}
+
+.blogframe {
+    width: 100%;
+    height: 60vh;
+    border: 0;
+
+
+}
+.customer-Reactions{
+    width: 100%;
+    height: 60vh;
+    border: 0;
+}
+
+
+@media (max-width: 800px) {
+
+    html,
+    body {
+        max-width: 100vw;
+        overflow-x: hidden;
+
+    }
+    .logo{
+        height: 40px;
+        margin-left: -7%;
+    }
+    .logopng{
+        height: 30px;
+    }
+
+    .menu-item,
+    .login_btn,
+    .signup_btn{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .signup_btn{
+        padding: 3px !important;
+    }
+    .bi-cart{
+        font-size: 25px !important;
+        margin-top: -9% !important;
+        position: absolute;
+        margin-left: 10px;
+        
+    }
+    .menu{
+        margin-left: -11%;
+        margin-top: -10%;
+    }
+    .menu-item{
+        margin: 0;
+    }
+    header {
+        margin-right: 10px !important;
+    }
+
+    .food-cards-mobile {
+        display: block;
+        border: 0;
+        margin-left: -5%;
+        margin-top: 0%;
+
+    }
+
+    .food-carousel {
+        display: none;
+
+    }
+
+
+    .greet {
+        display: inline;
+        float: left;
+        font-size: 2em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 0px;
+    }
+
+    .greet-item {
+        margin-left: -30px;
+    }
+
+    .add-text {
+        display: none;
+
+    }
+
+    .front-img {
+        filter: drop-shadow(10px 10px 50px #6d1c1c);
+        height: 13rem;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .tag1,
+    .tag2 {
+        display: none;
+    }
+
+    .intro-btn1,
+    .intro-btn2 {
+        font-size: 10px;
+        padding: 3px;
+        list-style: none;
+        display: inline;
+        border-radius: 5px;
+        margin: 5px;
+        margin-left: 0;
+    }
+
+    .intro-btn1 {
+        border: 2px solid red;
+        margin-left: 0;
+    }
+
+    .intro-btn {
+        margin-left: -70px;
+    }
+
+    .review-head {
+        font-size: 15px;
+        margin-left: -70px;
+    }
+
+    .bi-star-fill {
+        font-size: 10px !important;
+        margin-left: 0;
+    }
+
+    .stars {
+        display: none;
+    }
+
+    .review {
+        margin: 20px 25px 0 0;
+    }
+
+    .all-review-images {
+        margin-left: -70px;
+        margin-top: 45px;
+    }
+
+    .client:hover {
+        margin: 0 -5px 0 0;
+    }
+
+    .client {
+        border-radius: 100%;
+        height: 20px;
+        width: 20px;
+
+    }
+
+
+    .bi-arrow-left,
+    .bi-arrow-right {
+        font-size: 15px !important;
+        border-radius: 8px !important;
+
+    }
+
+    .bi-arrow-right {
+        margin-left: -80px !important;
+    }
+
+    .display-head {
+        font-size: 1.2em;
+        margin-top: -50px;
+        display: inline;
+        float: inline-start;
+    }
+
+
+    .work-header{
+        font-size: 15px !important;
+    }
+
+    #ourworks{
+        margin-top: -35%;
+    }
+
+    .ads-head{
+        font-size: 20px !important;
+        color: red;
+    }
+
+    .btn-danger{
+        margin-bottom: 10px;
+    }
+
+    .restaurant{
+        width: 90%;
+    height: 20rem;
+    border-radius: 20px;
+    }
+
+    .col-lg-3{
+        margin: 10px 0 0 0  !important;
+        padding: 20px !important;
+        height: 20rem !important;
+        font-size: 12px !important;
+        
+    }
+    .ads-text{
+        font-size: 15px !important;
+    }
+
+
+    .bi-phone,
+    .bi-book,
+    .bi-menu-button-wide,
+    .bi-telephone{
+        font-size: 15px !important;
+    }
+
+    .all-actions{
+        margin-top: 0% !important;
+        
+    }
+    .act-btn-name{
+        font-size: 12px;
+    }
+
+    .action-buttons{
+        padding: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+
+
+    .footer{
+        margin-top: 10%;
+    }
+}
